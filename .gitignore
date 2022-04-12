@@ -1,0 +1,10 @@
+.DS_Store
+.ipynb_checkpoints/
+clips/
+frames/
+hand_coding/
+ground_truth_cut_label_dicts/
+ground_truth_face_label_dicts/
+haarcascade_frontalface_default.xml
+head_label_dicts_haar/
+head_localization_haar/

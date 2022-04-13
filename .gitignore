@@ -2,9 +2,10 @@
 .ipynb_checkpoints/
 clips/
 frames/
+head_localization_haar/
 hand_coding/
 ground_truth_cut_label_dicts/
 ground_truth_face_label_dicts/
-haarcascade_frontalface_default.xml
+cut_label_dicts_lk_optical_flow/
 head_label_dicts_haar/
-head_localization_haar/
+haarcascade_frontalface_default.xml

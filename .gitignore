@@ -3,4 +3,7 @@
 clips/
 hand_coding/
 frames/
+frames_with_head_for_annotation/
 head_localization_haar/
+head_localization_haar_multiple_2/
+head_localization_haar_multiple_3/

@@ -67,7 +67,7 @@ This notebook evaluates the results of our head detection and cut detection syst
 
 To evaluate head detection, this script compares the pickled dictionaries for the head system labels (located in directories prefixed with `head_label_dicts_haar`) with the extracted face ground-truth labels (located in the `ground_truth_face_label_dicts/` directory). This comparison is done over all the clips in the dataset, and also broken down by clip.
 
-To evaluate cut detection, this script compares the pickled dictionaries for the cut system labels (located in the `cut_label_dicts_lk_optical_flow/` directory) with the extracted cut ground-truth labels (located in the `ground_truth_cut_label_dicts/` directory). This comparison is done over all the clips in the dataset, and also broken down by clip. The script also plots a subset of the results from our `err_threshold` and `num_votes_threshold` experiments as precision-recall curves.
+To evaluate cut detection, this script compares the pickled dictionaries for the cut system labels (located in the `cut_label_dicts_lk_optical_flow/` directory) with the extracted cut ground-truth labels (located in the `ground_truth_cut_label_dicts/` directory). This comparison is done over all the clips in the dataset, and also broken down by clip. The script also plots a subset of the results from our `err_threshold` and `num_votes_threshold` experiments as precision-recall curves, saving those plots as `cut_detection_precision_recall_curve_lk_optical_flow_err_threshold.jpg` and `cut_detection_precision_recall_curve_lk_optical_flow_num_votes_threshold.jpg`.
 
 ### VisualizeHeadLocalizationResults.ipynb
 

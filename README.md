@@ -81,6 +81,6 @@ This notebook also includes code for visualizing the VIA hand-annotated head bou
 
 ### EvaluateHeadLocalization.ipynb
 
-This notebook evaluates the results of our head localization systems by computing the mean Intersection over Union (IoU) score for each system. It compares the pickled dictionaries for the head bounding box system labels with the extracted head bounding box ground-truth coordinates annotated with VIA, and reports the mean IoU score for all 75 hand-annotated frames, the number of frames where a head was detected, and the mean IoU score over just the frames where a head was detected.
+This notebook evaluates the results of our head localization systems by computing the mean Intersection over Union (IoU) score for each system. It compares the pickled dictionaries for the head bounding box system labels (located in directories prefixed with `head_localization_dicts_haar`) with the extracted head bounding box ground-truth coordinates annotated with VIA (located in `frame_to_head_box_annotation.pkl`), and reports the mean IoU score for all 75 hand-annotated frames, the number of frames where a head was detected, and the mean IoU score over just the frames where a head was detected.
 
 This notebook also includes code for simultaneously visualizing the VIA hand-annotated head bounding box and the system-generated head bounding box for a particular frame and saving that visualization to a file called `head_localization_example_evaluation.jpg`.
